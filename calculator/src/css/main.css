@@ -1,0 +1,41 @@
+.calculator {
+    height: 60px;
+    justify-content: center;
+    max-width: 400px;
+    margin: auto;
+    width: 100%;
+}
+
+.display {
+    background-color: #bbb;
+    font-size: 30px;
+    height: 60px;
+    margin-bottom: 10px;
+    max-width: 400px;
+    padding: 10px;
+    text-align: right;
+}
+
+.buttons button {
+    display: block;
+    margin: auto;
+}
+
+button {
+    height: 60px;
+    font-size: 30px;
+    width: 25%;
+}
+
+.buttons button:nth-child(4n) {
+    margin-right: 0;
+}
+
+.buttons button:nth-child(n+13) {
+    background-color: #f0f0f0;
+}
+
+.buttons button:last-child {
+    background-color: #f0f0f0;
+    width: 100%;
+}
